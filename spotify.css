@@ -1,0 +1,162 @@
+body {
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: black;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    margin: 0;
+    padding: 0 10px;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    padding: 0 12px;
+}
+
+.brand img {
+    width: 44px;
+    padding: 0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+.container {
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 100%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('image.png');
+    background-size: cover;
+    flex-wrap: wrap;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .brand {
+        flex: 1 1 auto;
+        margin: 10px 0;
+    }
+
+    .songItems {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        padding: 10px;
+    }
+
+    .songItems img {
+        margin: 10px 0;
+    }
+
+    .timestamp {
+        margin: 10px 0;
+    }
+}
+
+.bottom {
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.icons {
+    margin-top: 14px;
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+#myProgressBar {
+    width: 80vw;
+    cursor: pointer;
+}
+
+.songItemsContainer {
+    margin-top: 34px;
+}
+
+.songItems {
+    height: 50px;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 50px; /* Corrected unit to px */
+    padding: 0 10px;
+}
+
+.songItems img {
+    width: 43px;
+    margin: 0 10px;
+    border-radius: 34px;
+}
+
+.timestamp {
+    margin: 0 23px;
+}
+
+.timestamp i {
+    cursor: pointer;
+}
+
+.songInfo {
+    position: absolute;
+    left: 10vw;
+}
+
+.songInfo img {
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+/* Additional media queries for better responsiveness */
+@media (max-width: 992px) {
+    nav ul {
+        justify-content: space-between;
+    }
+
+
+    .brand {
+        margin: 0;
+    }
+}
