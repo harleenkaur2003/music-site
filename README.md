@@ -29,3 +29,7 @@ A simple music player website built with HTML, CSS, and JavaScript. The app allo
 - HTML5
 - CSS3
 - JavaScript
+
+# Preview of website: 
+
+  ![Screenshot 2024-12-22 191415](https://github.com/user-attachments/assets/56306f81-209d-49c2-b3e4-2fcfb0eb441d) ![Screenshot 2024-12-22 185949](https://github.com/user-attachments/assets/5cd90a56-deb6-4837-ac0a-771c26aca1d8)
