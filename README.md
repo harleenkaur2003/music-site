@@ -5,7 +5,7 @@ A simple music player website built with HTML, CSS, and JavaScript. The app allo
 
 # Features:
 
-1 . Playlist ( of 10 songs) :
+1. Playlist ( of 10 songs) :
    - Each song displays its cover, name, and a play/pause button.
 
 2. Play and Pause button :
